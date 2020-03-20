@@ -10,10 +10,9 @@ object dmDownload: TdmDownload
   end
   object cnDownload: TFDConnection
     Params.Strings = (
-      'Database=C:\Teste Delphi\Banco\TesteDelphiSoftplan.db'
+      'Database=C:\Projetos\TesteDelphi\Banco\TesteDelphiSoftplan.db'
       'LockingMode=Normal'
       'DriverID=SQLite')
-    Connected = True
     LoginPrompt = False
     Left = 112
     Top = 32
